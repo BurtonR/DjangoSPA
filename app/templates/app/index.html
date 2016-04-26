@@ -1,0 +1,19 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+<div id="homePage" class="pageSection">
+    {% include "app/home.html" %}
+    {% include "app/gallery.html" %}
+</div>
+
+<div id="aboutPage" class="pageSection">
+    {% include "app/about.html" %}
+</div>
+
+<div id="contactPage" class="pageSection">
+    {% include "app/contact.html" %}
+</div>
+
+
+{% endblock %}
